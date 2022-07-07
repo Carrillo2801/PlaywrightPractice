@@ -17,9 +17,9 @@ export class LoginPage {
   }
 
   async login() {
-    await this.loginUserNameInput.fill(testData.userCredentials.useremail)
+    await this.loginUserNameInput.fill(testData.userCredentials.useremail!)
     await this.loginContinueButton.click()
-    await this.loginPasswordInput.fill(testData.userCredentials.password)
+    await this.loginPasswordInput.fill(testData.userCredentials.password!)
     await Promise.all([
       this.page.waitForNavigation(),
       this.loginSubmitButton.click()
