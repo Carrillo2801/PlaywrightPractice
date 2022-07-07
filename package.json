@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "e2e-test-no-report": "playwright test",
+    "show-report": "playwright show-report",
+    "e2e-test": "npm run e2e-test-no-report && npm run show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.21.1",
-    "dotenv": "^16.0.0"
+    "@playwright/test": "^1.23.1",
+    "dotenv": "^16.0.1"
+  },
+  "dependencies": {
+    "npm-check-updates": "^15.2.0"
   }
 }
