@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.23.1",
-    "dotenv": "^16.0.1"
+    "@playwright/test": "^1.25.1",
+    "dotenv": "^16.0.2"
   },
   "dependencies": {
-    "npm-check-updates": "^15.2.0"
+    "npm-check-updates": "^16.0.6"
   }
 }
